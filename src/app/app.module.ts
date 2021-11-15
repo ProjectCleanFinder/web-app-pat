@@ -7,6 +7,7 @@ import {CleaningWorkerComponent} from "../components/cleaning-worker/cleaning-wo
 import {WelcomeComponent} from "../components/welcome/welcome.component";
 import {MatCardModule, MatCardTitle} from "@angular/material/card";
 import {MatButton, MatButtonModule} from "@angular/material/button";
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {MatButton, MatButtonModule} from "@angular/material/button";
   imports: [
     BrowserModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    AppRoutingModule
 
   ],
   providers: [],
