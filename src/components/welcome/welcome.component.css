@@ -1,5 +1,15 @@
 
+html {
+
+}
+
+.titulo-cards{
+
+}
+
+
 .master-center{
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
