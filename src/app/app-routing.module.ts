@@ -12,6 +12,7 @@ import {ClientComponent} from "../components/client/client.component";
 
 const routes: Routes=[
 
+  {path: '', component: WelcomeComponent},
   {path: 'loginclient', component: LoginClientComponent},
   {path: 'loginworker', component: LoginworkerComponent},
   {path: 'welcome', component: WelcomeComponent},
