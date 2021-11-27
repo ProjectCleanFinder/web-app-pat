@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import {LoginClientComponent} from "../components/login-client/login-client.component";
-import {LoginworkerComponent} from "../components/loginworker/loginworker.component";
+import {LoginComponent} from "../components/login/login.component";
 import {WelcomeComponent} from "../components/welcome/welcome.component";
 import {CleaningWorkerComponent} from "../components/cleaning-worker/cleaning-worker.component";
 import {ClientComponent} from "../components/client/client.component";
@@ -13,8 +12,7 @@ import {ClientComponent} from "../components/client/client.component";
 const routes: Routes=[
 
   {path: '', component: WelcomeComponent},
-  {path: 'loginclient', component: LoginClientComponent},
-  {path: 'loginworker', component: LoginworkerComponent},
+  {path: 'login', component: LoginComponent},
   {path: 'welcome', component: WelcomeComponent},
   {path: 'worker', component: CleaningWorkerComponent},
   {path: 'client', component: ClientComponent}

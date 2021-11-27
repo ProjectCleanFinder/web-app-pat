@@ -1,0 +1,8 @@
+.palmedio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}

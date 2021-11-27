@@ -1,0 +1,19 @@
+{
+  "user": [
+    {
+    "id":1,
+    "username": "HRetes",
+    "password": "123456",
+    "role": "CLIENTE"
+    },
+    {
+      "id":2,
+      "username": "RLoli",
+      "password": "654321",
+      "role": "LIMPIEZA"
+    }
+  ]
+
+}
+
+
