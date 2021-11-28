@@ -8,8 +8,6 @@ import {WelcomeComponent} from "../components/welcome/welcome.component";
 import {MatCardModule, MatCardTitle} from "@angular/material/card";
 import {MatButton, MatButtonModule} from "@angular/material/button";
 import { AppRoutingModule } from './app-routing.module';
-import { LoginClientComponent } from 'src/components/login-client/login-client.component';
-import {LoginworkerComponent} from "../components/loginworker/loginworker.component";
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatToolbarModule} from "@angular/material/toolbar";
@@ -25,6 +23,9 @@ import {MatNativeDateModule} from "@angular/material/core";
 import {OrderslistComponent} from "../components/orderslist/orderslist.component";
 import {PublicrequestsComponent} from "../components/publicrequests/publicrequests.component";
 import {DetallesordenComponent} from "../components/detallesorden/detallesorden.component";
+import {LoginClientComponent} from "../components/login-client/login-client.component";
+import {LoginworkerComponent} from "../components/loginworker/loginworker.component";
+
 
 @NgModule({
   declarations: [
@@ -39,7 +40,6 @@ import {DetallesordenComponent} from "../components/detallesorden/detallesorden.
     CleaningWorkerComponent,
     PublicrequestsComponent,
     DetallesordenComponent
-
 
   ],
   imports: [
@@ -57,8 +57,6 @@ import {DetallesordenComponent} from "../components/detallesorden/detallesorden.
     MatDialogModule,
     MatDatepickerModule,
     MatNativeDateModule
-
-
 
   ],
   providers: [{provide: APP_BASE_HREF, useValue: '/'}],
