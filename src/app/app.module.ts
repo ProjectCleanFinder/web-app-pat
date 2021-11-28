@@ -23,6 +23,8 @@ import {CleaningOrderComponent} from "../components/cleaning-order/cleaning-orde
 import {MatDatepickerModule} from '@angular/material/datepicker'
 import {MatNativeDateModule} from "@angular/material/core";
 import {OrderslistComponent} from "../components/orderslist/orderslist.component";
+import {PublicrequestsComponent} from "../components/publicrequests/publicrequests.component";
+import {DetallesordenComponent} from "../components/detallesorden/detallesorden.component";
 
 @NgModule({
   declarations: [
@@ -33,7 +35,10 @@ import {OrderslistComponent} from "../components/orderslist/orderslist.component
     LoginClientComponent,
     LoginworkerComponent,
     CleaningOrderComponent,
-    OrderslistComponent
+    OrderslistComponent,
+    CleaningWorkerComponent,
+    PublicrequestsComponent,
+    DetallesordenComponent
 
 
   ],

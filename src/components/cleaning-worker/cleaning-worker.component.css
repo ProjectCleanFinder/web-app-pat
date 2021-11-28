@@ -1,0 +1,50 @@
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+.palmedio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonHead{
+  font-size: 40px;
+  justify-content: center;
+  background: royalblue;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-card{
+  margin-top: 10px !important;
+}
+.pequeña-imagen{
+  max-width: 9%;
+}
+
+.mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+.contenido1{
+  background: cyan;
+  font-size: 35px;
+}
+
+.header{
+  max-width: 35%;
+  justify-content: center;
+  font-style: inherit;
+  margin: auto ;
+}
+
+.texto-encabezado{
+  background: cyan;
+  font-size: 50px ;
+  font-style: italic;
+}
+

@@ -8,6 +8,8 @@ import {CleaningWorkerComponent} from "../components/cleaning-worker/cleaning-wo
 import {ClientComponent} from "../components/client/client.component";
 import {CleaningOrderComponent} from "../components/cleaning-order/cleaning-order.component";
 import {OrderslistComponent} from "../components/orderslist/orderslist.component";
+import {DetallesordenComponent} from "../components/detallesorden/detallesorden.component";
+import {PublicrequestsComponent} from "../components/publicrequests/publicrequests.component";
 
 
 
@@ -21,7 +23,12 @@ const routes: Routes=[
   {path: 'worker', component: CleaningWorkerComponent},
   {path: 'client', component: ClientComponent},
   {path: 'cleaningorder', component: CleaningOrderComponent},
-  {path: 'orderlist', component: OrderslistComponent}
+  {path: 'orderlist', component: OrderslistComponent},
+  {path: 'cleaning-worker', component: CleaningWorkerComponent},
+  {path: 'detallesorden', component: DetallesordenComponent},
+  {path: 'publicrequest', component: PublicrequestsComponent}
+
+
 ];
 
 

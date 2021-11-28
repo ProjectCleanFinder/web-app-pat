@@ -1,0 +1,23 @@
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+.pequeña-imagen{
+  max-width: 9%;
+}
+.texto-encabezado{
+  background: cornflowerblue;
+  font-size: 50px ;
+  font-style: italic;
+}
+.contenido1{
+  background: cyan;
+  font-size: 35px;
+}
+mat-card{
+  margin-top: 10px !important;
+}
