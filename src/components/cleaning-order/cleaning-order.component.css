@@ -1,0 +1,26 @@
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+mat-card{
+  margin-top: 10px !important;
+}
+.titulo{
+  background: cornflowerblue;
+  text-align: center;
+  font-size: 40px;
+}
+
+.registro1{
+  background: cyan;
+}
+.botonregistro{
+  justify-content: center;
+}
+mat-form-field {
+  margin-right: 12px;
+}
