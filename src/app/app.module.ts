@@ -25,6 +25,7 @@ import {PublicrequestsComponent} from "../components/publicrequests/publicreques
 import {DetallesordenComponent} from "../components/detallesorden/detallesorden.component";
 import {LoginClientComponent} from "../components/login-client/login-client.component";
 import {LoginworkerComponent} from "../components/loginworker/loginworker.component";
+import {PendingworksComponent} from "../components/pendingworks/pendingworks.component";
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import {LoginworkerComponent} from "../components/loginworker/loginworker.compon
     OrderslistComponent,
     CleaningWorkerComponent,
     PublicrequestsComponent,
-    DetallesordenComponent
+    DetallesordenComponent,
+    PendingworksComponent
 
   ],
   imports: [

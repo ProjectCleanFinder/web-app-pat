@@ -10,6 +10,7 @@ import {DetallesordenComponent} from "../components/detallesorden/detallesorden.
 import {PublicrequestsComponent} from "../components/publicrequests/publicrequests.component";
 import {LoginClientComponent} from "../components/login-client/login-client.component";
 import {LoginworkerComponent} from "../components/loginworker/loginworker.component";
+import {PendingworksComponent} from "../components/pendingworks/pendingworks.component";
 
 
 
@@ -26,7 +27,8 @@ const routes: Routes=[
   {path: 'orderlist', component: OrderslistComponent},
   {path: 'cleaning-worker', component: CleaningWorkerComponent},
   {path: 'detallesorden', component: DetallesordenComponent},
-  {path: 'publicrequest', component: PublicrequestsComponent}
+  {path: 'publicrequest', component: PublicrequestsComponent},
+  {path: 'pendingworks', component: PendingworksComponent}
 
 
 ];
