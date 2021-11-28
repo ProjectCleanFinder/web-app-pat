@@ -16,6 +16,13 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {RouterModule} from "@angular/router";
 import {APP_BASE_HREF} from '@angular/common';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {MatTableModule} from "@angular/material/table";
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatDialogModule} from "@angular/material/dialog";
+import {CleaningOrderComponent} from "../components/cleaning-order/cleaning-order.component";
+import {MatDatepickerModule} from '@angular/material/datepicker'
+import {MatNativeDateModule} from "@angular/material/core";
+import {OrderslistComponent} from "../components/orderslist/orderslist.component";
 
 @NgModule({
   declarations: [
@@ -24,7 +31,9 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     CleaningWorkerComponent,
     WelcomeComponent,
     LoginClientComponent,
-    LoginworkerComponent
+    LoginworkerComponent,
+    CleaningOrderComponent,
+    OrderslistComponent
 
 
   ],
@@ -38,6 +47,13 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     MatToolbarModule,
     RouterModule,
     BrowserAnimationsModule,
+    MatTableModule,
+    MatExpansionModule,
+    MatDialogModule,
+    MatDatepickerModule,
+    MatNativeDateModule
+
+
 
   ],
   providers: [{provide: APP_BASE_HREF, useValue: '/'}],

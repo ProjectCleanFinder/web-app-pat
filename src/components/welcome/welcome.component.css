@@ -1,12 +1,12 @@
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
 
-html {
-
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
-
-.titulo-cards{
-
-}
-
 
 .master-center{
   background-size: cover;
